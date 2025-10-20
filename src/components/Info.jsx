@@ -13,7 +13,12 @@ const Info = () => {
     const member = teamsMembers.find(m => m.slug === memberName);
 
     if (!member) {
-        return <div>Member not found</div>;
+        return (
+            <div className="member-info">
+                <h2>Member Not Found</h2>
+                <p>The team member you are looking for does not exist.</p>
+            </div>
+        );
     }
 
     return (

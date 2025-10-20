@@ -35,3 +35,38 @@ body {
   color: #2c3e50;
   line-height: 1.6;
 }
+
+.member-info{
+  position: relative;
+  width: 550px !important;
+  margin: 20px auto !important;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: .4rem;
+  text-align: left;
+  width: 300px;
+  background-color: #f9f9f9;
+  h2{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  p{
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+}
+
+.alert{
+  position: relative;
+  width: 100% !important;
+  padding: 15px;
+  margin: 5px !important;
+  border-radius: .4rem !important;
+  &.danger{
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+}
